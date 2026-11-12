@@ -1,0 +1,40 @@
+# Arranque completo: docker compose up --build  →  http://localhost:8080
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: claxon
+      MYSQL_USER: claxon
+      MYSQL_PASSWORD: claxon
+      MYSQL_ROOT_PASSWORD: claxon-root
+      TZ: Europe/Madrid
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_spanish_ci"]
+    ports:
+      - "3306:3306"
+    volumes:
+      - claxon-datos:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-pclaxon-root"]
+      interval: 5s
+      retries: 20
+
+  claxon:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: mysql
+      DB_HOST: db
+      # true = crea el piloto de Cuencas Mineras con usuarios de prueba (contraseña claxon123)
+      CLAXON_DEMO: "true"
+      CLAXON_JWT_SECRETO: "cambia-esto-por-un-secreto-largo-de-produccion"
+      # Para notificaciones push reales, monta el JSON de Firebase y descomenta:
+      # CLAXON_FCM_CREDENCIALES: /secretos/firebase.json
+    # volumes:
+    #   - ./secretos:/secretos:ro
+    ports:
+      - "8080:8080"
+
+volumes:
+  claxon-datos:

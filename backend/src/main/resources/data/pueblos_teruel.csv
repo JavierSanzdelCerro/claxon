@@ -1,0 +1,237 @@
+cod_ine,nombre,comarca,habitantes
+44001,Ababuj,Comunidad de Teruel,85
+44002,Abejuela,Gúdar-Javalambre,59
+44003,Aguatón,Comunidad de Teruel,26
+44004,Aguaviva,Bajo Aragón,675
+44005,Aguilar del Alfambra,Comunidad de Teruel,82
+44006,Alacón,Andorra-Sierra de Arcos,422
+44007,Alba,Comunidad de Teruel,250
+44008,Albalate del Arzobispo,Bajo Martín,2201
+44009,Albarracín,Sierra de Albarracín,1045
+44010,Albentosa,Gúdar-Javalambre,311
+44011,Alcaine,Cuencas Mineras,69
+44012,Alcalá de la Selva,Gúdar-Javalambre,527
+44013,Alcañiz,Bajo Aragón,14383
+44014,Alcorisa,Bajo Aragón,3416
+44016,Alfambra,Comunidad de Teruel,629
+44017,Aliaga,Cuencas Mineras,389
+44018,Almohaja,Comunidad de Teruel,31
+44019,Alobras,Comunidad de Teruel,84
+44020,Alpeñés,Comunidad de Teruel,28
+44021,Allepuz,Maestrazgo,137
+44022,Alloza,Andorra-Sierra de Arcos,703
+44023,Allueva,Jiloca,14
+44024,Anadón,Cuencas Mineras,19
+44025,Andorra,Andorra-Sierra de Arcos,7869
+44026,Arcos de las Salinas,Gúdar-Javalambre,137
+44027,Arens de Lledó,Matarraña/Matarranya,228
+44028,Argente,Comunidad de Teruel,263
+44029,Ariño,Andorra-Sierra de Arcos,897
+44031,Azaila,Bajo Martín,167
+44032,Bádenas,Jiloca,17
+44033,Báguena,Jiloca,441
+44034,Bañón,Jiloca,167
+44035,Barrachina,Jiloca,156
+44036,Bea,Jiloca,36
+44037,Beceite,Matarraña/Matarranya,608
+44038,Belmonte de San José,Bajo Aragón,145
+44039,Bello,Jiloca,355
+44040,Berge,Bajo Aragón,244
+44041,Bezas,Sierra de Albarracín,74
+44042,Blancas,Jiloca,178
+44043,Blesa,Cuencas Mineras,139
+44044,Bordón,Maestrazgo,134
+44045,Bronchales,Sierra de Albarracín,479
+44046,Bueña,Jiloca,87
+44047,Burbáguena,Jiloca,297
+44048,Cabra de Mora,Gúdar-Javalambre,111
+44049,Calaceite,Matarraña/Matarranya,1158
+44050,Calamocha,Jiloca,4198
+44051,Calanda,Bajo Aragón,3565
+44052,Calomarde,Sierra de Albarracín,73
+44053,Camañas,Comunidad de Teruel,148
+44054,Camarena de la Sierra,Gúdar-Javalambre,166
+44055,Camarillas,Comunidad de Teruel,103
+44056,Caminreal,Jiloca,761
+44059,Cantavieja,Maestrazgo,722
+44060,Cañada de Benatanduz,Maestrazgo,60
+44061,"Cañada de Verich, La",Bajo Aragón,106
+44062,Cañada Vellida,Comunidad de Teruel,52
+44063,Cañizar del Olivar,Cuencas Mineras,117
+44064,Cascante del Río,Comunidad de Teruel,114
+44065,Castejón de Tornos,Jiloca,91
+44066,Castel de Cabra,Cuencas Mineras,157
+44067,Castelnou,Bajo Martín,107
+44068,Castelserás,Bajo Aragón,831
+44070,"Castellar, El",Gúdar-Javalambre,87
+44071,Castellote,Maestrazgo,805
+44074,Cedrillas,Comunidad de Teruel,517
+44075,Celadas,Comunidad de Teruel,420
+44076,Cella,Comunidad de Teruel,2805
+44077,"Cerollera, La",Bajo Aragón,116
+44080,"Codoñera, La",Bajo Aragón,336
+44082,Corbalán,Comunidad de Teruel,92
+44084,Cortes de Aragón,Cuencas Mineras,116
+44085,Cosa,Jiloca,96
+44086,Cretas,Matarraña/Matarranya,619
+44087,Crivillén,Andorra-Sierra de Arcos,116
+44088,"Cuba, La",Maestrazgo,55
+44089,Cubla,Comunidad de Teruel,45
+44090,Cucalón,Jiloca,86
+44092,"Cuervo, El",Comunidad de Teruel,114
+44093,Cuevas de Almudén,Cuencas Mineras,105
+44094,Cuevas Labradas,Comunidad de Teruel,151
+44096,Ejulve,Andorra-Sierra de Arcos,222
+44097,Escorihuela,Comunidad de Teruel,198
+44099,Escucha,Cuencas Mineras,1101
+44100,Estercuel,Andorra-Sierra de Arcos,316
+44101,Ferreruela de Huerva,Jiloca,78
+44102,Fonfría,Jiloca,29
+44103,Formiche Alto,Gúdar-Javalambre,197
+44105,Fórnoles,Matarraña/Matarranya,101
+44106,Fortanete,Maestrazgo,186
+44107,Foz-Calanda,Bajo Aragón,263
+44108,"Fresneda, La",Matarraña/Matarranya,451
+44109,Frías de Albarracín,Sierra de Albarracín,156
+44110,Fuenferrada,Cuencas Mineras,46
+44111,Fuentes Calientes,Comunidad de Teruel,127
+44112,Fuentes Claras,Jiloca,589
+44113,Fuentes de Rubielos,Gúdar-Javalambre,108
+44114,Fuentespalda,Matarraña/Matarranya,353
+44115,Galve,Comunidad de Teruel,147
+44116,Gargallo,Andorra-Sierra de Arcos,117
+44117,Gea de Albarracín,Sierra de Albarracín,443
+44118,"Ginebrosa, La",Bajo Aragón,246
+44119,Griegos,Sierra de Albarracín,132
+44120,Guadalaviar,Sierra de Albarracín,272
+44121,Gúdar,Gúdar-Javalambre,81
+44122,Híjar,Bajo Martín,1883
+44123,Hinojosa de Jarque,Cuencas Mineras,166
+44124,"Hoz de la Vieja, La",Cuencas Mineras,109
+44125,Huesa del Común,Cuencas Mineras,128
+44126,"Iglesuela del Cid, La",Maestrazgo,484
+44127,Jabaloyas,Sierra de Albarracín,75
+44128,Jarque de la Val,Cuencas Mineras,99
+44129,Jatiel,Bajo Martín,53
+44130,Jorcas,Comunidad de Teruel,40
+44131,Josa,Cuencas Mineras,33
+44132,Lagueruela,Jiloca,58
+44133,Lanzuela,Jiloca,35
+44135,Libros,Comunidad de Teruel,153
+44136,Lidón,Comunidad de Teruel,70
+44137,Linares de Mora,Gúdar-Javalambre,323
+44138,Loscos,Jiloca,191
+44141,Lledó,Matarraña/Matarranya,200
+44142,Maicas,Cuencas Mineras,39
+44143,Manzanera,Gúdar-Javalambre,489
+44144,Martín del Río,Cuencas Mineras,475
+44145,Mas de las Matas,Bajo Aragón,1452
+44146,"Mata de los Olmos, La",Bajo Aragón,274
+44147,Mazaleón,Matarraña/Matarranya,599
+44148,Mezquita de Jarque,Cuencas Mineras,129
+44149,Mirambel,Maestrazgo,144
+44150,Miravete de la Sierra,Maestrazgo,42
+44151,Molinos,Maestrazgo,306
+44152,Monforte de Moyuela,Jiloca,73
+44153,Monreal del Campo,Jiloca,2408
+44154,Monroyo,Matarraña/Matarranya,330
+44155,Montalbán,Cuencas Mineras,1530
+44156,Monteagudo del Castillo,Comunidad de Teruel,67
+44157,Monterde de Albarracín,Sierra de Albarracín,58
+44158,Mora de Rubielos,Gúdar-Javalambre,1391
+44159,Moscardón,Sierra de Albarracín,54
+44160,Mosqueruela,Gúdar-Javalambre,722
+44161,Muniesa,Cuencas Mineras,704
+44163,Noguera de Albarracín,Sierra de Albarracín,161
+44164,Nogueras,Jiloca,19
+44165,Nogueruelas,Gúdar-Javalambre,224
+44167,Obón,Cuencas Mineras,83
+44168,Odón,Jiloca,261
+44169,Ojos Negros,Jiloca,535
+44171,Olba,Gúdar-Javalambre,216
+44172,Oliete,Andorra-Sierra de Arcos,476
+44173,"Olmos, Los",Bajo Aragón,144
+44174,Orihuela del Tremedal,Sierra de Albarracín,628
+44175,Orrios,Comunidad de Teruel,182
+44176,Palomar de Arroyos,Cuencas Mineras,238
+44177,Pancrudo,Comunidad de Teruel,145
+44178,"Parras de Castellote, Las",Bajo Aragón,82
+44179,Peñarroya de Tastavins,Matarraña/Matarranya,532
+44180,Peracense,Jiloca,107
+44181,Peralejos,Comunidad de Teruel,82
+44182,Perales del Alfambra,Comunidad de Teruel,281
+44183,Pitarque,Maestrazgo,104
+44184,Plou,Cuencas Mineras,48
+44185,"Pobo, El",Comunidad de Teruel,138
+44187,"Portellada, La",Matarraña/Matarranya,284
+44189,Pozondón,Sierra de Albarracín,95
+44190,Pozuel del Campo,Jiloca,108
+44191,"Puebla de Híjar, La",Bajo Martín,1035
+44192,"Puebla de Valverde, La",Gúdar-Javalambre,504
+44193,Puertomingalvo,Gúdar-Javalambre,165
+44194,Ráfales,Matarraña/Matarranya,187
+44195,Rillo,Comunidad de Teruel,130
+44196,Riodeva,Comunidad de Teruel,186
+44197,Ródenas,Sierra de Albarracín,85
+44198,Royuela,Sierra de Albarracín,229
+44199,Rubiales,Sierra de Albarracín,55
+44200,Rubielos de la Cérida,Jiloca,57
+44201,Rubielos de Mora,Gúdar-Javalambre,643
+44203,Salcedillo,Cuencas Mineras,8
+44204,Saldón,Sierra de Albarracín,31
+44205,Samper de Calanda,Bajo Martín,982
+44206,San Agustín,Gúdar-Javalambre,131
+44207,San Martín del Río,Jiloca,264
+44208,Santa Cruz de Nogueras,Jiloca,36
+44209,Santa Eulalia,Comunidad de Teruel,1148
+44210,Sarrión,Gúdar-Javalambre,1033
+44211,Segura de los Baños,Cuencas Mineras,43
+44212,Seno,Bajo Aragón,52
+44213,Singra,Jiloca,90
+44215,Terriente,Sierra de Albarracín,174
+44216,Teruel,Comunidad de Teruel,32304
+44217,Toril y Masegoso,Sierra de Albarracín,26
+44218,Tormón,Comunidad de Teruel,37
+44219,Tornos,Jiloca,241
+44220,Torralba de los Sisones,Jiloca,231
+44221,Torrecilla de Alcañiz,Bajo Aragón,447
+44222,Torrecilla del Rebollar,Jiloca,186
+44223,Torre de Arcas,Matarraña/Matarranya,103
+44224,Torre de las Arcas,Cuencas Mineras,32
+44225,Torre del Compte,Matarraña/Matarranya,173
+44226,Torrelacárcel,Comunidad de Teruel,265
+44227,Torre los Negros,Jiloca,90
+44228,Torremocha de Jiloca,Comunidad de Teruel,154
+44229,Torres de Albarracín,Sierra de Albarracín,155
+44230,Torrevelilla,Bajo Aragón,207
+44231,Torrijas,Gúdar-Javalambre,94
+44232,Torrijo del Campo,Jiloca,568
+44234,Tramacastiel,Comunidad de Teruel,112
+44235,Tramacastilla,Sierra de Albarracín,128
+44236,Tronchón,Maestrazgo,106
+44237,Urrea de Gaén,Bajo Martín,580
+44238,Utrillas,Cuencas Mineras,3192
+44239,Valacloche,Comunidad de Teruel,20
+44240,Valbona,Gúdar-Javalambre,202
+44241,Valdealgorfa,Bajo Aragón,721
+44243,Valdecuenca,Sierra de Albarracín,38
+44244,Valdelinares,Gúdar-Javalambre,132
+44245,Valdeltormo,Matarraña/Matarranya,367
+44246,Valderrobres,Matarraña/Matarranya,2018
+44247,Valjunquera,Matarraña/Matarranya,428
+44249,"Vallecillo, El",Sierra de Albarracín,55
+44250,Veguillas de la Sierra,Comunidad de Teruel,27
+44251,Villafranca del Campo,Jiloca,371
+44252,Villahermosa del Campo,Jiloca,87
+44256,Villanueva del Rebollar de la Sierra,Cuencas Mineras,51
+44257,Villar del Cobo,Sierra de Albarracín,218
+44258,Villar del Salz,Jiloca,108
+44260,Villarluengo,Maestrazgo,213
+44261,Villarquemado,Comunidad de Teruel,928
+44262,Villarroya de los Pinares,Maestrazgo,193
+44263,Villastar,Comunidad de Teruel,338
+44264,Villel,Comunidad de Teruel,347
+44265,Vinaceite,Bajo Martín,282
+44266,Visiedo,Comunidad de Teruel,189
+44267,Vivel del Río Martín,Cuencas Mineras,84
+44268,"Zoma, La",Cuencas Mineras,28

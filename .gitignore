@@ -1,0 +1,18 @@
+# Java
+backend/target/
+*.class
+.idea/
+*.iml
+# Flutter
+app/.dart_tool/
+app/build/
+app/.flutter-plugins*
+app/.packages
+app/android/.gradle/
+app/android/local.properties
+app/android/app/debug/
+app/android/app/release/
+# Secretos
+secretos/
+*firebase*.json
+.env

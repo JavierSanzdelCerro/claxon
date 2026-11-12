@@ -1,0 +1,5 @@
+claxon:
+  demo: true
+  avisos:
+    # En los tests la tarea programada no se dispara sola: se llama a mano.
+    cron: "-"

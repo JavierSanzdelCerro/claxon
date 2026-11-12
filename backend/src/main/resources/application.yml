@@ -1,0 +1,50 @@
+# Configuración por defecto: base de datos H2 en memoria y datos de demostración.
+# Para MySQL usa el perfil "mysql" (ver application-mysql.yml y docker-compose.yml).
+server:
+  port: ${PORT:8080}
+  compression:
+    enabled: true
+
+spring:
+  application:
+    name: claxon
+  datasource:
+    url: jdbc:h2:mem:claxon;MODE=MySQL;DATABASE_TO_LOWER=TRUE;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+    properties:
+      hibernate.jdbc.time_zone: Europe/Madrid
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    time-zone: Europe/Madrid
+  web:
+    resources:
+      # La web de Flutter (app, panel del ayuntamiento y tablón) se sirve desde aquí.
+      static-locations: classpath:/static/,file:${CLAXON_WEB_DIR:../app/build/web}/
+
+claxon:
+  zona-horaria: Europe/Madrid
+  demo: ${CLAXON_DEMO:true}
+  admin:
+    password: ${CLAXON_ADMIN_PASSWORD:claxon123}
+  jwt:
+    # En producción hay que cambiarlo con la variable de entorno CLAXON_JWT_SECRETO.
+    secreto: ${CLAXON_JWT_SECRETO:cambia-este-secreto-de-desarrollo-claxon-2026}
+    dias: 30
+  fcm:
+    # Ruta al JSON de la cuenta de servicio de Firebase. Vacío = sin push real.
+    credenciales: ${CLAXON_FCM_CREDENCIALES:}
+  cors: ${CLAXON_CORS:*}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    es.claxon: INFO
