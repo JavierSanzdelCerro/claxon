@@ -28,7 +28,21 @@ cambios de la consulta médica que publica el ayuntamiento.
 
 ## Probarlo en 1 minuto (sin Docker)
 
-Necesitas **Java 21**, **Maven** y **Flutter 3.47.6 o superior** (Dart 3.13.5 o superior).
+Necesitas **Java 21 o superior** y **Flutter 3.47.6 o superior** (Dart 3.13.5 o superior).
+No hace falta instalar Maven: el repositorio trae el Maven Wrapper (`backend/mvnw`, `backend/mvnw.cmd`).
+
+**En Windows**, lo más rápido es arrancar solo el servidor (lo que necesita la app del emulador).
+Desde la carpeta del repositorio, en PowerShell:
+
+```powershell
+.\arrancar-servidor.cmd
+```
+
+El script busca solo el JDK (los que descarga IntelliJ en `%USERPROFILE%\.jdks`, los de
+`Program Files` o el `java` del PATH), descarga Maven la primera vez y deja el servidor en
+**http://localhost:8080** (desde el emulador de Android: `http://10.0.2.2:8080`).
+
+Para tener también la web (app, panel y tablón) en el navegador:
 
 ```bash
 # 1) Web (app, panel y tablón)
@@ -38,7 +52,7 @@ flutter build web --release --no-web-resources-cdn
 
 # 2) Servidor con base de datos H2 en memoria y datos de demostración
 cd ../backend
-mvn spring-boot:run
+./mvnw spring-boot:run      # en Windows: .\mvnw.cmd spring-boot:run
 ```
 
 Abre **http://localhost:8080**. En la pantalla de inicio hay botones con las cuentas de prueba
@@ -162,7 +176,7 @@ Los 236 municipios de Teruel con su código INE y comarca se cargan de
 ## Tests
 
 ```bash
-cd backend && mvn test
+cd backend && ./mvnw test
 ```
 
 17 pruebas: el cálculo de la hora estimada (`EtaServiceTest`) y un flujo completo de punta a punta con el
