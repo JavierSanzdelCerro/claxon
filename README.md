@@ -28,7 +28,7 @@ cambios de la consulta médica que publica el ayuntamiento.
 
 ## Probarlo en 1 minuto (sin Docker)
 
-Necesitas **Java 21**, **Maven** y **Flutter 3.x**.
+Necesitas **Java 21**, **Maven** y **Flutter 3.47.6 o superior** (Dart 3.13.5 o superior).
 
 ```bash
 # 1) Web (app, panel y tablón)
