@@ -52,7 +52,7 @@ flutter build web --release --no-web-resources-cdn
 
 # 2) Servidor con base de datos H2 en memoria y datos de demostración
 cd ../backend
-./mvnw spring-boot:run      # en Windows: .\\mvnw.cmd spring-boot:run
+./mvnw spring-boot:run      # en Windows: .\mvnw.cmd spring-boot:run
 ```
 
 Abre **http://localhost:8080**. En la pantalla de inicio hay botones con las cuentas de prueba
